@@ -1,7 +1,8 @@
 CREATE TABLE Players (
 	player_id serial primary key,
-	First_Name text,
-	Last_Name text
+	Last_Name text,
+	First_Name text
+	
 );
 
 CREATE TABLE Stats (
@@ -16,6 +17,12 @@ CREATE TABLE Stats (
 );
 
 CREATE TABLE Salaries (
-	player_id serial primary key,
+	Player_ID serial primary key,
 	salary integer
+);
+
+CREATE TABLE Teams (
+	Team_ID serial primary key,
+	Team_Name text
+
 );
