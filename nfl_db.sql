@@ -11,7 +11,7 @@ CREATE TABLE Stats (
 	College text, 
 	Current_Team text, 	
 	Experience text, 
-	Position text, 	
+	Position_name text, 	
 	First_Name text, 	
 	Last_Name text 
 );
@@ -26,3 +26,6 @@ CREATE TABLE Teams (
 	Team_Name text
 
 );
+
+
+select * from stats
